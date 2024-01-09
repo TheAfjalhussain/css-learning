@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>grid property</title>
+	<style type="text/css">
+		.main{
+			width: 500px;
+			height: 500px;
+			border: 2px solid black;
+			margin: auto;
+			margin-top: 100px;
+			padding: 10px;
+			display: grid;
+			grid-template-columns: auto auto auto;
+			/*grid-column-gap: 10px;
+			grid-row-gap: 10px;*/
+			grid-gap: 10px 10px;
+
+		}
+		.main div{
+		
+			padding: 50px;
+			font-size: 50px;
+
+			background: skyblue;
+			border: 1px black solid;
+		}
+		#div1{
+			/*grid-column-start: 1;
+			grid-column-end: 3;*/
+			/*grid-row-start: 1;
+			grid-row-end: 4;*/
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div id="div1"> 1 </div>
+		<div> 2 </div>
+		<div> 3 </div>
+		<div> 4 </div>
+		<div> 5 </div>
+		<div> 6 </div>
+		<div> 7 </div>
+		<div> 8 </div>
+		<div> 9 </div>
+	</div>
+
+</body>
+</html>

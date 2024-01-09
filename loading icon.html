@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>loading acon</title>
+	<style type="text/css">
+	#main-container {
+		position: relative;
+		width: fit-content;
+		margin: 0 auto;
+	}
+	.loader {
+		width: 200px;
+		height: 200px;
+		display: flex;
+		margin: 90px auto;
+		transform: rotate(48deg);
+		animation: laoding_animation .8s linear(0 0%,1 100%)  infinite;
+	}
+	</style>
+</head>
+<body bgcolor="">
+	<div id="main-container">
+		<div class="loader">
+			hello how are you
+			<div class="outer"> </div>
+			
+		</div>
+		<div class="inner">
+			are you ok
+			<div class="count"></div>
+			<div class="text">Loading...</div>
+			
+		</div>
+		
+	</div>
+
+</body>
+</html>
